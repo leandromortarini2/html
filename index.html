@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>M03 HTML</title>
   </head>
   <body>
@@ -15,7 +16,7 @@
     <hr />
 
     <main>
-      <section>
+      <section id="sec1">
         <article>
           <ul>
             <li>Texto1</li>
@@ -23,7 +24,7 @@
             <li>Texto3</li>
           </ul>
         </article>
-        <article>
+        <article class=".article-lista">
           <ol>
             <li>Texto1</li>
             <li>Texto2</li>
@@ -34,7 +35,7 @@
       </section>
       <section>
         <article>
-          <p>
+          <p class="p1">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Reprehenderit quos, explicabo similique quod sunt ab, ipsam, magnam
             doloremque quis ipsa eum perferendis! Tempora iusto recusandae,
@@ -50,10 +51,10 @@
         <hr />
       </section>
       <section>
-        <article>
+        <article class="article-img">
           <img src="unidad4.jpg" alt="" />
         </article>
-        <article>
+        <article class="article-form">
           <form action="#">
             <div>
               <label for="nombre">Nombre: </label>
@@ -64,7 +65,7 @@
               <input type="text" name="apellido" />
             </div>
             <div>
-              <label for="dni">DNI: </label>
+              <label for="dni" class="labelDNI">DNI: </label>
               <input type="number" name="dni" />
             </div>
             <div>
@@ -77,10 +78,10 @@
       </section>
       <hr />
     </main>
-    <footer>
-      <span><a href="#">RedSocial1</a></span>
-      <span><a href="#">RedSocial1</a></span>
-      <span><a href="#">RedSocial1</a></span>
+    <footer id="pie">
+      <span><a href="#pie" class="enlace-pie">RedSocial1</a></span>
+      <span><a href="#pie" class="enlace-pie">RedSocial1</a></span>
+      <span><a href="#pie" class="enlace-pie">RedSocial1</a></span>
     </footer>
   </body>
 </html>

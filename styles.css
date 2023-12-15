@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 20px;
+}
+header {
+  /* background-color: blue; */
+  text-align: center;
+}
+h1 {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: brown;
+}
+span {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgba(165, 42, 42, 0.624);
+}
+#sec1 {
+  background-color: brown;
+}
+
+ul,
+ol {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+li {
+  margin-top: 10px;
+}
+.p1 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 200;
+  color: brown;
+  text-align: center;
+}
+p {
+  color: #053b50;
+  font-size: 15px;
+  text-transform: lowercase;
+  text-align: center;
+  font-weight: 600;
+}
+.article-img,
+.article-form {
+  width: fit-content;
+  margin: 0 auto;
+}
+.article-img img {
+  width: 300px;
+  border-radius: 50%;
+  transition: 2s;
+}
+.article-img img:hover {
+  width: 320px;
+  cursor: pointer;
+}
+form {
+  background-color: #053b50;
+  width: 500px;
+  height: 300px;
+  margin: 25px auto;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10%;
+}
+label {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: white;
+}
+input {
+  width: 300px;
+  height: 25px;
+}
+input[type="password"] {
+  width: 290px;
+}
+.labelDNI {
+  letter-spacing: 8px;
+}
+input:focus {
+  background-color: brown;
+  color: white;
+  font-weight: 600;
+}
+button {
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 3px;
+
+  background-color: brown;
+  transition: 1s;
+}
+button:hover {
+  background-color: rgb(233, 100, 100);
+  cursor: pointer;
+}
+footer {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.enlace-pie {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 5px;
+}
+.enlace-pie:hover {
+  color: brown;
+}
